@@ -1,0 +1,10 @@
+import random
+value1 = random.randint(0,9)
+value2 = random.randint(0,9)
+value3 = random.randint(0,9)
+print(f"{value1}{value2}{value3}")
+v_1 = random.randint(0,6)
+v_2 = random.randint(0,6)
+v_3 = random.randint(0,6)
+v_4 = random.randint(0,6)
+print(f"{v_1}{v_2}{v_3}{v_4}")
