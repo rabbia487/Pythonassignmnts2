@@ -8,11 +8,9 @@ print("Welcome to the Number Guessing Game!")
 print("I have picked a number between 1 and 10. Try to guess it!")
 
 
-user_guess = None
+while True:
 
-
-while user_guess != secret_number:
-    user_guess = int(input("Enter your guess: "))
+    user_guess = int(input("Enter your guess between 1 to 10: "))
 
     if user_guess < secret_number:
         print("Too low!")
