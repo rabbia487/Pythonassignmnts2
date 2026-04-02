@@ -4,7 +4,7 @@ if cabin_class == "LUX":
 elif cabin_class == "A":
     print("cabin above the car deck with window.")
 elif cabin_class == "B":
-    Print("window cabin above the car deck.")
+    print("window cabin above the car deck.")
 elif cabin_class == "C":
     print("window cabin below the car deck.")
 else:
