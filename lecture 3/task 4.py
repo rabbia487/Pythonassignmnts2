@@ -18,3 +18,4 @@ while True:
         print("Too high!")
     else:
         print("Correct! You guessed the number!")
+        break

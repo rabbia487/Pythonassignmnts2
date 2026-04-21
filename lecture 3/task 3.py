@@ -1,18 +1,17 @@
-smallest = None
-largest = None
+smallest = 10
+largest = 15
 
 while True:
-    user_input = input("Enter a number: ") .strip()# remove spaces
+    user_input = input("Enter a number: ").strip()# remove spaces
     if user_input == "":
         break
-
 
     number = int(user_input)
 
 
-    if smallest is None or number < smallest:
+    if  number < smallest:
         smallest = number
-    if largest is None or number > largest:
+    if number > largest:
         largest = number
 
 
