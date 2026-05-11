@@ -1,4 +1,4 @@
-def to_liters(g):
+def convert(g):
     return g * 3.785
 
 
@@ -8,4 +8,4 @@ while True:
     if g < 0:
         break
 
-    print("Liters:", to_liters(g))
+    print("Liters:", convert(g))
